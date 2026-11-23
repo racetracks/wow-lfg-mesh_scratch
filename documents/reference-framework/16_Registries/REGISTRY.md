@@ -5,7 +5,7 @@ The one source of truth for reference keys of wow-lfg-mesh (`DEC-00037`). Never 
 ## Counters (the next integer of each type)
 | Type | Meaning | Next |
 | --- | --- | --- |
-| `CMP` | Component (one documentation folder under `documents/`) | 00002 |
+| `CMP` | Component (one documentation folder under `documents/`) | 00003 |
 | `ARC` | Architecture document | 00002 |
 | `HLD` | High level design document | 00002 |
 | `DDS` | Detailed design document | 00002 |
@@ -14,7 +14,7 @@ The one source of truth for reference keys of wow-lfg-mesh (`DEC-00037`). Never 
 | `ISS` | Issue (GitHub number in the title) | 00001 |
 | `APX` | Appendix document (a component's key index) | 00002 |
 | `SAV` | SavedVariables decision (key, layout, migration, cap) | 00001 |
-| `DEC` | Decision (a numbered fork and its answer, or a rule) | 00054 |
+| `DEC` | Decision (a numbered fork and its answer, or a rule) | 00056 |
 | `TST` | Test (harness check, phase or run) | 00007 |
 | `CHK` | In-game check | 00001 |
 | `BLD` | Build record (one build of the addon) | 00001 |
@@ -92,3 +92,6 @@ The one source of truth for reference keys of wow-lfg-mesh (`DEC-00037`). Never 
 | `DEC-00051` | `CMP-00001` | `documents/reference-framework/00_Decisions.md` | Token measurement from transcripts in ledger render | 2026-11-23 |
 | `DEC-00052` | `CMP-00001` | `documents/reference-framework/00_Decisions.md` | Peel an M1 tail out of an M2 task only at about 6 or more calls | 2026-11-23 |
 | `DEC-00053` | `CMP-00001` | `documents/reference-framework/00_Decisions.md` | Execution packs: plan mode, stale-plan check, by-class brief check | 2026-11-23 |
+| `CMP-00002` | `CMP-00002` | `documents/addons/LFGMesh/` | LFGMesh addon: looking-for-group mesh across LFG shards | 2026-11-23 |
+| `DEC-00054` | `CMP-00001` | `documents/reference-framework/00_Decisions.md` | Addon folder LFGMesh, prefix LFGM_; purpose an LFG mesh across LFG shards | 2026-11-23 |
+| `DEC-00055` | `CMP-00001` | `documents/reference-framework/00_Decisions.md` | Port the code map at the first code, not before | 2026-11-23 |

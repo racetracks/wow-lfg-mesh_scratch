@@ -68,6 +68,9 @@ Purpose: every key of this folder, each linked to its definition ([`DEC-00038`](
 | [`TST-00004`](https://github.com/racetracks/wow-lfg-mesh_scratch/blob/main/documents/reference-framework/15_Tests.md#tst-00004) | refkey retire on a copy: RET key, mapping row, old row marked, check passes | [15_Tests.md](https://github.com/racetracks/wow-lfg-mesh_scratch/blob/main/documents/reference-framework/15_Tests.md#tst-00004) |
 | [`TST-00005`](https://github.com/racetracks/wow-lfg-mesh_scratch/blob/main/documents/reference-framework/15_Tests.md#tst-00005) | refkey check fails a RET missing from its 00_References.md | [15_Tests.md](https://github.com/racetracks/wow-lfg-mesh_scratch/blob/main/documents/reference-framework/15_Tests.md#tst-00005) |
 | [`TST-00006`](https://github.com/racetracks/wow-lfg-mesh_scratch/blob/main/documents/reference-framework/15_Tests.md#tst-00006) | link_keys.py --check reports 0 unresolved | [15_Tests.md](https://github.com/racetracks/wow-lfg-mesh_scratch/blob/main/documents/reference-framework/15_Tests.md#tst-00006) |
+| [`CMP-00002`](https://github.com/racetracks/wow-lfg-mesh_scratch/tree/main/documents/addons/LFGMesh) | LFGMesh addon | [documents/addons/LFGMesh/](https://github.com/racetracks/wow-lfg-mesh_scratch/blob/main/documents/addons/LFGMesh/Readme.md) |
+| [`DEC-00054`](https://github.com/racetracks/wow-lfg-mesh_scratch/blob/main/documents/reference-framework/00_Decisions.md#dec-00054) | Addon folder, prefix, purpose | [00_Decisions.md](https://github.com/racetracks/wow-lfg-mesh_scratch/blob/main/documents/reference-framework/00_Decisions.md#dec-00054) |
+| [`DEC-00055`](https://github.com/racetracks/wow-lfg-mesh_scratch/blob/main/documents/reference-framework/00_Decisions.md#dec-00055) | Code map at the first code | [00_Decisions.md](https://github.com/racetracks/wow-lfg-mesh_scratch/blob/main/documents/reference-framework/00_Decisions.md#dec-00055) |
 
 ## Changelog
 | Date | Reference | Change | Reason | Context |

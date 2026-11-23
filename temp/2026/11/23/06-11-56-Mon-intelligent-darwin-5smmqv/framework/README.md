@@ -21,6 +21,7 @@ Purpose: what prompt 02 delivered and what waits on the author · owner this ses
 | Tests run on a copy, all pass | [`TST-00001`](https://github.com/racetracks/wow-lfg-mesh_scratch/blob/main/documents/reference-framework/15_Tests.md#tst-00001) to [`TST-00006`](https://github.com/racetracks/wow-lfg-mesh_scratch/blob/main/documents/reference-framework/15_Tests.md#tst-00006) | [15_Tests.md](https://github.com/racetracks/wow-lfg-mesh_scratch/blob/main/documents/reference-framework/15_Tests.md) |
 | PSS to mesh key mapping | - | [00_References.md](https://github.com/racetracks/wow-lfg-mesh_scratch/blob/main/documents/reference-framework/00_References.md) |
 | `documents/`, `drafts/`, `history/` groups | [`DEC-00017`](https://github.com/racetracks/wow-lfg-mesh_scratch/blob/main/documents/reference-framework/12_User_Guides/12_02_Documentation_Rules.md#dec-00017), [`DEC-00029`](https://github.com/racetracks/wow-lfg-mesh_scratch/blob/main/documents/reference-framework/12_User_Guides/12_02_Documentation_Rules.md#dec-00029) | [documents/](https://github.com/racetracks/wow-lfg-mesh_scratch/tree/main/documents) |
+| LFGMesh documentation folder (built by script) | [`CMP-00002`](https://github.com/racetracks/wow-lfg-mesh_scratch/tree/main/documents/addons/LFGMesh), [`DEC-00054`](https://github.com/racetracks/wow-lfg-mesh_scratch/blob/main/documents/reference-framework/00_Decisions.md#dec-00054), [`DEC-00055`](https://github.com/racetracks/wow-lfg-mesh_scratch/blob/main/documents/reference-framework/00_Decisions.md#dec-00055) | [documents/addons/LFGMesh/](https://github.com/racetracks/wow-lfg-mesh_scratch/tree/main/documents/addons/LFGMesh) |
 | Both CLAUDE.md files on the new keys, linked copies rendered | [`DEC-00008`](https://github.com/racetracks/wow-lfg-mesh_scratch/blob/main/documents/reference-framework/12_User_Guides/12_02_Documentation_Rules.md#dec-00008) | [scratch CLAUDE.linked.md](https://github.com/racetracks/wow-lfg-mesh_scratch/blob/main/CLAUDE.linked.md), [addon CLAUDE.linked.md](https://github.com/racetracks/wow-lfg-mesh/blob/claude/intelligent-darwin-5smmqv/docs/linked/CLAUDE.linked.md) |
 
 ```mermaid
@@ -43,13 +44,9 @@ pie title Keys allocated
 | `move_framework.sh` | one-off PSS migration |
 
 ## Decisions for you
-| Key | Question | Options | Recommended | Built on meanwhile |
-| --- | --- | --- | --- | --- |
-| - | Push scratch to `main`? | yes; keep on the branch | yes | branch `claude/intelligent-darwin-5smmqv` |
-| - | Addon name, folder, purpose | your names | folder `LFGMesh`, prefix `LFGM_` | `LFGMesh` in the code globs |
-| - | Port the code map now or at the first code | now; first code | first code | not ported |
+None.
 
-Also waiting on you (not decisions): None.
+Also waiting on you (not decisions): merge [PR 1](https://github.com/racetracks/wow-lfg-mesh/pull/1).
 
 ## Decisions made (this session's context)
 | Key | Decision | Date | Source |
@@ -61,7 +58,8 @@ Also waiting on you (not decisions): None.
 | # | Prompt | Answer | Output |
 | --- | --- | --- | --- |
 | [01][p1] | apply PSS CLAUDE.md, baseline, budgets, NEXT.md | done, on the branch | [setup][o1] |
-| [02][p2] | port reference index, document rules, naming; fresh start | done, on the branch | [framework][o2] |
+| [02][p2] | port reference index, document rules, naming; fresh start | done | [framework][o2] |
+| [03][p3] | yes; recommendations; purpose | scratch on main, PR 1 opened, LFGMesh folder built | [summary][o3] |
 
 ## References
 | Reference | Title | Link |
@@ -75,3 +73,5 @@ Also waiting on you (not decisions): None.
 [p2]: ../prompts/02.md
 [o1]: ../setup/README.md
 [o2]: README.md
+[p3]: ../prompts/03.md
+[o3]: ../../../../../../summary/wow-lfg-mesh-2026-11-23-06-45.md

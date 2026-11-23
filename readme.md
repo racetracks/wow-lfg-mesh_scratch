@@ -14,4 +14,4 @@ Download any file as `https://github.com/racetracks/wow-lfg-mesh_scratch/raw/mai
 | [releases/](https://github.com/racetracks/wow-lfg-mesh_scratch/tree/main/releases) | Every pre-release test/dev/bugfix zip, versioned and dated | empty |
 | [latest/](https://github.com/racetracks/wow-lfg-mesh_scratch/tree/main/latest) | The newest test zip | empty |
 | [SavedVariables/](https://github.com/racetracks/wow-lfg-mesh_scratch/tree/main/SavedVariables) | The author's real saves, by the version that wrote them | empty |
-| [summary/](https://github.com/racetracks/wow-lfg-mesh_scratch/tree/main/summary) | Project and session status summaries | empty |
+| [summary/](https://github.com/racetracks/wow-lfg-mesh_scratch/tree/main/summary) | Project and session status summaries | [wow-lfg-mesh-2026-11-23-06-45.md](https://github.com/racetracks/wow-lfg-mesh_scratch/blob/main/summary/wow-lfg-mesh-2026-11-23-06-45.md) (PR 1 handed over) |
