@@ -1,5 +1,3 @@
-# documents/registry/
+# documents/registry/ (moved)
 
-Purpose: placeholder for this project's key registry · owner the author · status waiting · related [CLAUDE.md](https://github.com/racetracks/wow-lfg-mesh_scratch/blob/main/CLAUDE.md)
-
-Empty: the project cites PSS keys as provenance until the author decides on a registry of its own.
+Moved on 2026-11-23: the registry is [documents/reference-framework/16_Registries/REGISTRY.md](https://github.com/racetracks/wow-lfg-mesh_scratch/blob/main/documents/reference-framework/16_Registries/REGISTRY.md) ([`DEC-00019`](https://github.com/racetracks/wow-lfg-mesh_scratch/blob/main/documents/reference-framework/12_User_Guides/12_02_Documentation_Rules.md#dec-00019)).
